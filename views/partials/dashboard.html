@@ -1,31 +1,11 @@
-<header class="row">
-	<div class="col-md-4">
-		<div class="row">
-			<div class="col-md-6 end-md">
-				<img src="img/menu.jpg">
-			</div>
-			<div class="col-md-6">
-				<img class="logo-telefonica" src="img/telefonica2.png">
-			</div>
-		</div>
+<header>
+	<div class="cabecera">
+		<a href="dashboard"><img src="img/menu.jpg" style="position:absolute;"></a>
+		<img src="img/logotipo.png" style="position:absolute;left:20%;margin-top:1%;">
+		<span style="position:absolute;left:60%;margin-top:2%;color:white;"><img src="img/ico-persona.png" style="padding-right:10px;" >Luigi Guerreros  <b>Administrador</b></span>
+		<a href=""><img src="img/ico-siguiente.png" style="float:right;margin-top:2%;"></a>
 	</div>
-	<div class="col-md-4">
-	</div>
-	<div class="col-md-4">
-		<div class="row" style="height: 100%;">
-			<div class="col-md-6">
-				<div class="name-header text-regular">
-					<img src="img/ico-persona.png"> Luigi Guerreros
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="name-header">
-					<img src="img/ico-siguiente.png">
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
+	</header>
 <div class="row">
 	<div class="col-md-12 sub-header center-xs box-aligner">
 		<div class="box-aligner-item text-bold sub-header-text">
@@ -65,53 +45,59 @@
 						</a>
 					</div>
 					<div class="item-gestiones second-item">
-						<div class="row">
-							<div class="col-md-3 start-xs">
-								<div class="text-gestion">
-									<div class="headline-bold title-gestion">Completa</div>
-									<div class="headline-bold title-gestion">Componente</div>
-									<br>
-									<div class="text-regular sub-title-gestion">Descripción</div>
+						<a href="/altacomponente">
+							<div class="row">
+								<div class="col-md-3 start-xs">
+									<div class="text-gestion">
+										<div class="headline-bold title-gestion">Alta</div>
+										<div class="headline-bold title-gestion">Componente</div>
+										<br>
+										<div class="text-regular sub-title-gestion">Descripción</div>
+									</div>
+								</div>
+								<div class="col-md-6"></div>
+								<div class="col-md-1"></div>
+								<div class="col-md-2">
+									<img class="next-icon" src="img/ico-siguiente2.png">
 								</div>
 							</div>
-							<div class="col-md-6"></div>
-							<div class="col-md-1"></div>
-							<div class="col-md-2">
-								<img class="next-icon" src="img/ico-siguiente2.png">
-							</div>
-						</div>
+						</a>
 					</div>
 					<div class="item-gestiones third-item">
-						<div class="row">
-							<div class="col-md-3 start-xs">
-								<div class="text-gestion">
-									<div class="headline-bold title-gestion">Migración</div>
-									<br><br>
-									<div class="text-regular sub-title-gestion">Descripción</div>
+						<a href="/migraciones">
+							<div class="row">
+								<div class="col-md-3 start-xs">
+									<div class="text-gestion">
+										<div class="headline-bold title-gestion">Migración</div>
+										<br><br>
+										<div class="text-regular sub-title-gestion">Descripción</div>
+									</div>
+								</div>
+								<div class="col-md-6"></div>
+								<div class="col-md-1"></div>
+								<div class="col-md-2">
+									<img class="next-icon" src="img/ico-siguiente2.png">
 								</div>
 							</div>
-							<div class="col-md-6"></div>
-							<div class="col-md-1"></div>
-							<div class="col-md-2">
-								<img class="next-icon" src="img/ico-siguiente2.png">
-							</div>
-						</div>
+						</a>
 					</div>
 					<div class="item-gestiones last-item">
-						<div class="row">
-							<div class="col-md-3 start-xs box-aligner">
-								<div class="text-gestion">
-									<div class="headline-bold title-gestion">SVAS</div>
-									<br><br>
-									<div class="text-regular sub-title-gestion">Descripción</div>
+						<a href="/sva">
+							<div class="row">
+								<div class="col-md-3 start-xs box-aligner">
+									<div class="text-gestion">
+										<div class="headline-bold title-gestion">SVAS</div>
+										<br><br>
+										<div class="text-regular sub-title-gestion">Descripción</div>
+									</div>
+								</div>
+								<div class="col-md-6"></div>
+								<div class="col-md-1"></div>
+								<div class="col-md-2">
+									<img class="next-icon" src="img/ico-siguiente2.png">
 								</div>
 							</div>
-							<div class="col-md-6"></div>
-							<div class="col-md-1"></div>
-							<div class="col-md-2">
-								<img class="next-icon" src="img/ico-siguiente2.png">
-							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -128,21 +114,23 @@
 				</div>
 				<div class="menu-gestiones">
 					<div class="item-gestiones other-first-item">
-						<div class="row">
-							<div class="col-md-5 start-xs">
-								<div class="text-gestion">
-									<div class="headline-bold title-gestion">Administrador</div>
-									<div class="headline-bold title-gestion">de Categorías</div>
-									<br>
-									<div class="text-regular sub-title-gestion">Descripción</div>
+						<a href="/categorias">
+							<div class="row">
+								<div class="col-md-5 start-xs">
+									<div class="text-gestion">
+										<div class="headline-bold title-gestion">Administrador</div>
+										<div class="headline-bold title-gestion">de Categorías</div>
+										<br>
+										<div class="text-regular sub-title-gestion">Descripción</div>
+									</div>
+								</div>
+								<div class="col-md-4"></div>
+								<div class="col-md-1"></div>
+								<div class="col-md-2">
+									<img class="next-icon" src="img/ico-siguiente2.png">
 								</div>
 							</div>
-							<div class="col-md-4"></div>
-							<div class="col-md-1"></div>
-							<div class="col-md-2">
-								<img class="next-icon" src="img/ico-siguiente2.png">
-							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
