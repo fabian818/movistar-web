@@ -1,0 +1,13 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "consolidate": "^0.14.1",
+    "ejs": "^2.5.1",
+    "express": "^4.13.4",
+    "jade": ">= 0.0.1",
+    "mu2express": "~0.0.1"
+  }
+}
