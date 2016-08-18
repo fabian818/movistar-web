@@ -15,6 +15,30 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
     templateUrl: 'partials/altapura',
     controller: AltaPuraCtrl
   }).
+  when('/altacomponente', {
+    templateUrl: 'partials/altacomponente',
+    controller: AltaPuraCtrl
+  }).
+  when('/migraciones', {
+    templateUrl: 'partials/migraciones',
+    controller: AltaPuraCtrl
+  }).
+  when('/categorias', {
+    templateUrl: 'partials/categorias',
+    controller: AltaPuraCtrl
+  }).
+  when('/monotv', {
+    templateUrl: 'partials/monotv',
+    controller: AltaPuraCtrl
+  }).
+  when('/sva', {
+    templateUrl: 'partials/sva',
+    controller: AltaPuraCtrl
+  }).
+  when('/svatv', {
+    templateUrl: 'partials/svatv',
+    controller: AltaPuraCtrl
+  }).
   otherwise({
     redirectTo: '/login'
   });
