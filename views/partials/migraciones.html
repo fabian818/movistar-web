@@ -2,7 +2,7 @@
 	<div class="cabecera">
 		<a href="dashboard"><img src="img/menu.jpg" style="position:absolute;"></a>
 		<img src="img/logotipo.png" style="position:absolute;left:20%;margin-top:1%;">
-		<span style="position:absolute;left:60%;margin-top:2%;color:white;"><img src="img/ico-persona.png" style="padding-right:10px;" >Luigi Guerreros  <b>Administrador</b></span>
+		<span style="position:absolute;left:60%;margin-top:2%;color:white;"><img src="img/ico-persona.png" style="padding-right:10px;" >Jose Diaz  <b>Administrador</b></span>
 		<a href=""><img src="img/ico-siguiente.png" style="float:right;margin-top:2%;"></a>
 	</div>
 	</header>
@@ -19,24 +19,67 @@
 			<span>
 				<select name="filtro" class="filtro">
 					<option>Campana</option>
+					<option>MIGRACIONES</option>
 				</select>
 				<select name="filtro" class="filtro">
 					<option>Zonal</option>
+					<option>HYO-CHB</option>
+					<option>LIMA</option>
+					<option>LIM-CHY-TRU-CUZ-ARE-PIU</option>
+					<option>LIM-CHY-TRU-CUZ-ARE-PIU-ICA</option>
+					<option>TODAS</option>
+					<option>NO APLICA</option>
 				</select>
 				<select name="filtro" class="filtro">
 					<option>Tipo</option>
+					<option>MONO</option>
+					<option>DUO</option>
+					<option>TRIO</option>
 				</select>
 				<select name="filtro" class="filtro">
 					<option>Subtipo</option>
+					<option>LINEA</option>
+					<option>TV</option>
+					<option>INTERNET</option>
 				</select>
 				<select name="filtro" class="filtro">
 					<option>Paquete</option>
+					<option>Control</option>
+					<option>Plana Local</option>
+					<option>Duo 1 MB</option>
+					<option>Duo 2 MB</option>
+					<option>Duo 4 MB</option>
+					<option>Duo 8 MB</option>
+					<option>Duo 10 MB</option>
+					<option>Duo 15 MB</option>
+					<option>Duo 30 MB</option>
+					<option>Duo 60 MB</option>
+					<option>Duo 100 MB</option>
+					<option>Duo Estandar</option>
+					<option>Trio 1 MB</option>
+					<option>Trio Hogar Digital</option>
+					<option>Trio 2 MB</option>
+					<option>Trio 4 MB</option>
+					<option>Trio 10 MB + Bloque HD</option>
+					<option>Trio 15 MB</option>
+					<option>Trio 20 MB</option>
+					<option>Trio 40 MB</option>
+					<option>Trio 60 MB</option>
+					<option>Trio 100 MB</option>
+					<option>Trio 6 MB</option>
+					<option>Trio 10 MB</option>
 				</select>
 				<select name="filtro" class="filtro">
 					<option>Tecnologia</option>
-				</select>
-				<select name="filtro" class="filtro">
-					<option>Modo Pago</option>
+					<option>ADSL</option>
+					<option>ADSL/ANALOGICO</option>
+					<option>ADSL/DIGITAL</option>
+					<option>ADSL/SATELITAL</option>
+					<option>DIGITAL</option>
+					<option>HFC</option>
+					<option>HFC/DIGITAL</option>
+					<option>SATELITAL</option>
+					<option>ANALOGICO</option>
 				</select>
 			</span>
 		</div>
@@ -48,7 +91,6 @@
 		<tr>
 			<td class="camposhead bordeizquierda">Codigo</td>
 			<td class="camposhead">Origen</td>
-			<td class="camposhead">Campana</td>
 			<td class="camposhead">Zonal</td>
 			<td class="camposhead">Tipo</td>
 			<td class="camposhead">Subtipo</td>
@@ -57,41 +99,100 @@
 		</tr>		
 		<tr>
 			<td class="margen">
-				AP0001
+				MG0001
 			</td>
 			<td class="margen">
 				<select name="altapura" class="combo">
 					<option>Origen</option>
-				</select>
-			</td>
-			<td class="margen">
-				<select name="altapura" class="combo">
-					<option>Campana</option>
+					<option>--</option>
 				</select>
 			</td>
 			<td class="margen">
 				<select name="altapura" class="combo">
 					<option>Zonal</option>
+					<option>HYO-CHB</option>
+					<option>LIMA</option>
+					<option>LIM-CHY-TRU-CUZ-ARE-PIU</option>
+					<option>LIM-CHY-TRU-CUZ-ARE-PIU-ICA</option>
+					<option>TODAS</option>
+					<option>NO APLICA</option>
 				</select>
 			</td>
 			<td class="margen">
 				<select name="altapura" class="combo">
 					<option>Tipo</option>
+					<option>Mono</option>
+					<option>Duo</option>
+					<option>Trio</option>
 				</select>
 			</td>
 			<td class="margen">
 				<select name="altapura" class="combo">
 					<option>Subtipo</option>
+					<option>Linea</option>
+					<option>Internet</option>
+					<option>TV</option>
 				</select>
 			</td>
 			<td class="margen">
 				<select name="altapura" class="combo">
 					<option>Paquete</option>
+					<option>Control</option>
+					<option>Plana Local</option>
+					<option>Duo 10 MB</option>
+					<option>Duo 100 MB</option>
+					<option>Duo 15 MB</option>
+					<option>Duo 2 MB</option>
+					<option>Duo 30 MB</option>
+					<option>Duo 4 MB</option>
+					<option>Duo 6 MB</option>
+					<option>Duo 60 MB</option>
+					<option>Duo 8 MB</option>
+					<option>Duo Estandar</option>
+					<option>Trio 10 MB</option>
+					<option>Trio 15 MB</option>
+					<option>Trio 2 MB</option>
+					<option>Trio 20 MB</option>
+					<option>Trio 4 MB</option>
+					<option>Trio 40 MB</option>
+					<option>Trio 60 MB</option>
+					<option>Trio 8 MB</option>
+					<option>Trio 80 MB</option>
 				</select>
 			</td>
 			<td class="margen">
 				<select name="altapura" class="combo">
 					<option>Nombre Paquete</option>
+					Plan Control 250
+Tarifa Plana Local 79
+Duo Plano Local 10 Mbps
+Duo Plano Local 100 Mbps
+Duo Plano Local 15 Mbps
+Duo Plano Local 2 Mbps
+Duo Plano Nacional 30 Mbps
+Duo Plano Local 4 Mbps
+Duo Plano Local 6 Mbps
+Duo Plano Nacional 60 Mbps
+Duo Plano Local 8 Mbps
+Duo Plano Local Estandar
+Duo Plano Local Estandar Digital
+Duo Plano Local Estandar DTH
+Trio Plano Local 10 Mbps Estandar Digital
+Trio Plano Local 10 Mbps Estandar DTH
+Trio Plano Local 15 Mbps Estandar Digital
+Trio Plano Local 15 Mbps Estandar DTH
+Trio Plano Local 2 Mbps Estandar
+Trio Plano Local 2 Mbps Estandar Digital
+Trio Plano Local 2 Mbps Estandar DTH
+Trio Plano Local 20 Mbps Estandar Digital
+Trio Plano Local 20 Mbps Estandar DTH
+Trio Plano Local 4 Mbps Estandar
+Trio Plano Local 4 Mbps Estandar Digital
+Trio Plano Local 4 Mbps Estandar DTH
+Trio Plano Local 40 Mbps Estandar Digital
+Trio Plano Local 60 Mbps Estandar Digital
+Trio Plano Local 8 Mbps Estandar
+Trio Plano Local 80 Mbps Estandar Digital
 				</select>
 			</td>
 		</tr>
