@@ -11,6 +11,10 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
     templateUrl: 'partials/dashboard',
     controller: DashboardCtrl
   }).
+  when('/altapura', {
+    templateUrl: 'partials/altapura',
+    controller: AltaPuraCtrl
+  }).
   otherwise({
     redirectTo: '/login'
   });
