@@ -120,10 +120,55 @@ section{
   height: 126px;
   padding: 0px;
 }
+article{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+.camposhead{
+  text-align: center;
+  background-color: #bdbdbd;
+  color: white;
+  height: 40px;
+}
+.bordeizquierda{
+border-radius: 5px 0px 0px 5px;
+-moz-border-radius: 5px 0px 0px 5px;
+-webkit-border-radius: 5px 0px 0px 5px;
+
+}
+.bordederecha{
+  border-radius: 0px 5px 5px 0px;
+-moz-border-radius: 0px 5px 5px 0px;
+-webkit-border-radius: 0px 5px 5px 0px;
+}
+.margen{
+  padding-top: 1%;
+}
+.titulogestion{
+  color: #2b7e8a;
+  font-weight: bolder;
+}
+.botoncrear{
+  float:right;
+  background-image: url("../img/rectangulo1.png");
+  width: 75px;
+  height: 26px;
+  text-align: center;
+  color: white;
+}
+.crear{
+  padding: 4px;
+}
 .filtro{
   border-radius: 5px;
   width: 10%;
   height: 25px;
+}
+.combo{
+  border-radius: 5px;
+  width: 100%;
+  height: 20px;
 }
 .filtros{
   padding-top: 2%;
