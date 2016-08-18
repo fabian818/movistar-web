@@ -138,3 +138,86 @@ section{
   margin-right: 150px;
   height: 64px;
 }
+
+.item-gestiones{
+  height: 120px;
+}
+.first-item{
+  border-radius: 10px 10px 0px 0px;
+  background-color: #00AF9E;
+}
+.other-first-item{
+  border-radius: 10px 10px 0px 0px;
+  background-color: #0BB7B9;
+}
+.second-item{
+  background-color: #01bfbf;
+}
+.third-item{
+  background-color: #00cde0;
+}
+.last-item{
+  background-color: #2deef7;
+  border-radius: 0px 0px 10px 10px;
+}
+.menu-gestiones{
+  padding-right: 20px;
+}
+.categorias{
+  background-color: #000;
+  height: 100px;
+  border-radius: 0px 0px 10px 10px;
+}
+.text-gestion{
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 100%;
+}
+.title-gestion{
+  font-size: 21px;
+}
+.sub-title-gestion{
+  font-size: 15px;
+  bottom: 0;
+  margin-bottom: 0px;
+}
+.sub-header{
+  background-color: #09556C;
+  height: 60px;
+}
+.box-aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-aligner-item {
+  max-width: 50%;
+}
+
+.icon-box{
+  height: 150px;
+}
+.icon-text{
+  color: #235369;
+  font-size: 27px;
+}
+
+.next-icon{
+  margin-top: 30px;
+}
+
+.sub-header-text{
+  font-size: 18px;
+  color: #fff;
+}
+.name-header{
+  color: #fff;
+  margin-top: 22px;
+}
+
+.logo-telefonica{
+  width: 110px;
+  margin-top: 20px;
+}
