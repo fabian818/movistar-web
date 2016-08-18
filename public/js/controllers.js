@@ -6,7 +6,7 @@ function IndexCtrl($scope, $http) {
 
 function LoginCtrl($scope, $http, $location, $routeParams) {
 	$scope.login = function(){
-		$location.path('/altapura');
+		$location.path('/dashboard');
 	}
 }
 
